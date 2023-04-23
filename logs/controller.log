@@ -1,0 +1,95 @@
+2023-04-23 17:53:50,758 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 17:53:50,766 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 17:53:53,096 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 17:53:54,266 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 17:54:11,896 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
+2023-04-23 17:55:46,345 : INFO : main_fun : <module> : Successfuly uploaded to bucket
+2023-04-23 17:55:47,730 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 17:55:47,755 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 17:55:50,047 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 17:55:50,795 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 17:56:07,395 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
+2023-04-23 18:16:45,272 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 18:16:45,278 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 18:16:58,033 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 18:16:58,672 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 18:17:08,830 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
+2023-04-23 18:25:04,110 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 18:25:04,119 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 18:25:06,300 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 18:25:07,560 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 18:25:22,983 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
+2023-04-23 19:12:56,245 : ERROR : main_fun : convert_xml_to_csv : Error converting non_existent_file.xml to csv: [Errno 2] No such file or directory: 'non_existent_file.xml'
+2023-04-23 19:12:56,295 : INFO : main_fun : convert_xml_to_csv : Converted test_data.xml to test_output\test_data.csv
+2023-04-23 19:12:56,319 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: 
+2023-04-23 19:12:56,327 : INFO : main_fun : download_and_extract_file : Downloaded file file.zip from URL http://example.com/file.zip
+2023-04-23 19:12:56,327 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: [Errno 2] No such file or directory: 'file.zip'
+2023-04-23 19:12:56,329 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:12:56,329 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:12:56,329 : INFO : main_fun : get_download_link : Found download link http://example.com/file.zip for file file.zip
+2023-04-23 19:12:56,329 : ERROR : main_fun : get_xml_data : Failed to retrieve XML data from http://example.com/xml: 
+2023-04-23 19:12:56,329 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from http://example.com/xml
+2023-04-23 19:15:06,859 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: 
+2023-04-23 19:15:06,859 : INFO : main_fun : download_and_extract_file : Downloaded file file.zip from URL http://example.com/file.zip
+2023-04-23 19:15:06,859 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: [Errno 2] No such file or directory: 'file.zip'
+2023-04-23 19:15:06,864 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:15:06,864 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:15:06,864 : INFO : main_fun : get_download_link : Found download link http://example.com/file.zip for file file.zip
+2023-04-23 19:15:06,864 : ERROR : main_fun : get_xml_data : Failed to retrieve XML data from http://example.com/xml: 
+2023-04-23 19:15:06,864 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from http://example.com/xml
+2023-04-23 19:25:13,567 : ERROR : main_fun : convert_xml_to_csv : Error converting non_existent_file.xml to csv: [Errno 2] No such file or directory: 'non_existent_file.xml'
+2023-04-23 19:25:13,587 : INFO : main_fun : convert_xml_to_csv : Converted test_data.xml to test_output\test_data.csv
+2023-04-23 19:25:13,599 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: Failed to download file
+2023-04-23 19:25:13,607 : INFO : main_fun : download_and_extract_file : Downloaded file test.zip from URL http://example.com/file.zip
+2023-04-23 19:25:13,607 : INFO : main_fun : download_and_extract_file : Extracted contents of file test.zip
+2023-04-23 19:25:13,607 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:25:13,607 : INFO : main_fun : get_download_link : Found download link https://example.com/test.zip for file test.zip
+2023-04-23 19:25:16,159 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/404
+2023-04-23 19:25:18,573 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/my_data.xml
+2023-04-23 19:35:46,105 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: Failed to download file
+2023-04-23 19:35:46,113 : INFO : main_fun : download_and_extract_file : Downloaded file test.zip from URL http://example.com/file.zip
+2023-04-23 19:35:46,115 : INFO : main_fun : download_and_extract_file : Extracted contents of file test.zip
+2023-04-23 19:35:46,115 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:35:46,119 : INFO : main_fun : get_download_link : Found download link https://example.com/test.zip for file test.zip
+2023-04-23 19:35:48,525 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/404
+2023-04-23 19:35:50,899 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/my_data.xml
+2023-04-23 19:35:50,931 : ERROR : main_fun : convert_xml_to_csv : Error converting test.xml to csv: [Errno 2] No such file or directory: 'test.xml'
+2023-04-23 19:35:53,660 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: HTTP Error 404: Not Found
+2023-04-23 19:35:53,661 : INFO : main_fun : get_download_link : Found download link http://example.com/file.zip for file file.zip
+2023-04-23 19:35:53,661 : ERROR : main_fun : get_download_link : Failed to parse XML data: no element found: line 1, column 18
+2023-04-23 19:46:41,022 : ERROR : main_fun : convert_xml_to_csv : Error converting test.xml to csv: [Errno 2] No such file or directory: 'test.xml'
+2023-04-23 19:46:43,340 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: HTTP Error 404: Not Found
+2023-04-23 19:46:43,343 : INFO : main_fun : get_download_link : Found download link http://example.com/file.zip for file file.zip
+2023-04-23 19:46:43,344 : ERROR : main_fun : get_download_link : Failed to parse XML data: no element found: line 1, column 18
+2023-04-23 19:46:43,345 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: Failed to download file
+2023-04-23 19:46:43,348 : INFO : main_fun : download_and_extract_file : Downloaded file test.zip from URL http://example.com/file.zip
+2023-04-23 19:46:43,349 : INFO : main_fun : download_and_extract_file : Extracted contents of file test.zip
+2023-04-23 19:46:43,350 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 19:46:43,351 : INFO : main_fun : get_download_link : Found download link https://example.com/test.zip for file test.zip
+2023-04-23 19:46:46,624 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/404
+2023-04-23 19:46:48,562 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/my_data.xml
+2023-04-23 19:46:48,562 : INFO : main_fun : upload_csv_lambda : Received event: {'file': '/path/to/local/file.csv', 'region_name': 'us-west-2', 'bucket_name': 'my-bucket', 'aws_access_key_id': 'my-access-key-id', 'aws_secret_access_key': 'my-secret-access-key'}
+2023-04-23 19:46:48,562 : INFO : main_fun : upload_csv_lambda : File uploaded to S3: file.csv
+2023-04-23 21:42:37,417 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 21:42:37,417 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 21:43:51,301 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 21:43:52,795 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 21:44:08,224 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
+2023-04-23 21:44:30,647 : ERROR : main_fun : convert_xml_to_csv : Error converting test.xml to csv: [Errno 2] No such file or directory: 'test.xml'
+2023-04-23 21:44:31,444 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: HTTP Error 404: Not Found
+2023-04-23 21:44:31,444 : INFO : main_fun : get_download_link : Found download link http://example.com/file.zip for file file.zip
+2023-04-23 21:44:31,444 : ERROR : main_fun : get_download_link : Failed to parse XML data: no element found: line 1, column 18
+2023-04-23 21:44:31,444 : ERROR : main_fun : download_and_extract_file : Failed to download or extract file: Failed to download file
+2023-04-23 21:44:31,459 : INFO : main_fun : download_and_extract_file : Downloaded file test.zip from URL http://example.com/file.zip
+2023-04-23 21:44:31,459 : INFO : main_fun : download_and_extract_file : Extracted contents of file test.zip
+2023-04-23 21:44:31,459 : WARNING : main_fun : get_download_link : Failed to find download link in XML data
+2023-04-23 21:44:31,459 : INFO : main_fun : get_download_link : Found download link https://example.com/test.zip for file test.zip
+2023-04-23 21:44:33,039 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/404
+2023-04-23 21:44:34,759 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://example.com/my_data.xml
+2023-04-23 21:44:34,759 : INFO : main_fun : upload_csv_lambda : Received event: {'file': '/path/to/local/file.csv', 'region_name': 'us-west-2', 'bucket_name': 'my-bucket', 'aws_access_key_id': 'my-access-key-id', 'aws_secret_access_key': 'my-secret-access-key'}
+2023-04-23 21:44:34,774 : INFO : main_fun : upload_csv_lambda : File uploaded to S3: file.csv
+2023-04-23 22:22:04,371 : INFO : main_fun : get_xml_data : Successfully retrieved XML data from https://registers.esma.europa.eu/solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100
+2023-04-23 22:22:04,371 : INFO : main_fun : get_download_link : Found download link http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip for file DLTINS_20210117_01of01.zip
+2023-04-23 22:22:29,364 : INFO : main_fun : download_and_extract_file : Downloaded file DLTINS_20210117_01of01.zip from URL http://firds.esma.europa.eu/firds/DLTINS_20210117_01of01.zip
+2023-04-23 22:22:30,294 : INFO : main_fun : download_and_extract_file : Extracted contents of file DLTINS_20210117_01of01.zip
+2023-04-23 22:22:55,090 : INFO : main_fun : convert_xml_to_csv : Converted DLTINS_20210117_01of01.xml to C:\Users\hp\Steeleye_Python\DLTINS_20210117_01of01.csv
